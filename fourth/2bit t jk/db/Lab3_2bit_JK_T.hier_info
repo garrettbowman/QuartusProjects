@@ -1,0 +1,7 @@
+|Lab3_2bit_JK_T
+Q1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst2.CLK
+CLK => inst.CLK
+
+

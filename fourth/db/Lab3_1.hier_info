@@ -1,0 +1,6 @@
+|Lab3_1
+CLK <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+R => inst2.IN0
+S => inst.IN1
+
+

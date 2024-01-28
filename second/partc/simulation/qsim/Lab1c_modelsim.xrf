@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab1/partc/Lab1c.bdf
+source_file = 1, C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab1/partc/db/Lab1c.cbx.xml
+design_name = Lab1c
+instance = comp, \W~output , W~output, Lab1c, 1
+instance = comp, \X~output , X~output, Lab1c, 1
+instance = comp, \D~input , D~input, Lab1c, 1
+instance = comp, \C~input , C~input, Lab1c, 1
+instance = comp, \B~input , B~input, Lab1c, 1
+instance = comp, \A~input , A~input, Lab1c, 1
+instance = comp, \inst3~0 , inst3~0, Lab1c, 1
+instance = comp, \inst9~0 , inst9~0, Lab1c, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, Lab1c, 1

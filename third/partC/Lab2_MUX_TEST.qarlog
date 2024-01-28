@@ -1,0 +1,15 @@
+Quartus Prime Archive log --	C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab2/partC/Lab2_MUX_TEST.qarlog
+
+Archive:	C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab2/partC/Lab2_MUX_TEST.qar
+Date:		Fri Jun 04 12:35:40 2021
+Quartus Prime		19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab2/partC/Lab2_MUX_TEST.bdf
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab2/partC/Lab2_MUX_TEST.qpf
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab2/partC/Lab2_MUX_TEST.qsf
+c:/intelfpga_lite/19.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 4 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

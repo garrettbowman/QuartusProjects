@@ -1,0 +1,766 @@
+$comment
+	File created using the following command:
+		vcd file CompCreation.msim.vcd -direction
+$end
+$date
+	Thu Jul 15 01:46:02 2021
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module lab5_dff_traf_cont_vhd_vec_tst $end
+$var wire 1 ! CLK $end
+$var wire 1 " CW $end
+$var wire 1 # EV $end
+$var wire 1 $ green $end
+$var wire 1 % Q [3] $end
+$var wire 1 & Q [2] $end
+$var wire 1 ' Q [1] $end
+$var wire 1 ( Q [0] $end
+$var wire 1 ) red $end
+$var wire 1 * Restart $end
+$var wire 1 + yellow $end
+
+$scope module i1 $end
+$var wire 1 , gnd $end
+$var wire 1 - vcc $end
+$var wire 1 . unknown $end
+$var wire 1 / devoe $end
+$var wire 1 0 devclrn $end
+$var wire 1 1 devpor $end
+$var wire 1 2 ww_devoe $end
+$var wire 1 3 ww_devclrn $end
+$var wire 1 4 ww_devpor $end
+$var wire 1 5 ww_red $end
+$var wire 1 6 ww_EV $end
+$var wire 1 7 ww_CW $end
+$var wire 1 8 ww_Q [3] $end
+$var wire 1 9 ww_Q [2] $end
+$var wire 1 : ww_Q [1] $end
+$var wire 1 ; ww_Q [0] $end
+$var wire 1 < ww_Restart $end
+$var wire 1 = ww_CLK $end
+$var wire 1 > ww_yellow $end
+$var wire 1 ? ww_green $end
+$var wire 1 @ \Restart~inputclkctrl_INCLK_bus\ [3] $end
+$var wire 1 A \Restart~inputclkctrl_INCLK_bus\ [2] $end
+$var wire 1 B \Restart~inputclkctrl_INCLK_bus\ [1] $end
+$var wire 1 C \Restart~inputclkctrl_INCLK_bus\ [0] $end
+$var wire 1 D \CLK~inputclkctrl_INCLK_bus\ [3] $end
+$var wire 1 E \CLK~inputclkctrl_INCLK_bus\ [2] $end
+$var wire 1 F \CLK~inputclkctrl_INCLK_bus\ [1] $end
+$var wire 1 G \CLK~inputclkctrl_INCLK_bus\ [0] $end
+$var wire 1 H \~QUARTUS_CREATED_GND~I_combout\ $end
+$var wire 1 I \~QUARTUS_CREATED_UNVM~~busy\ $end
+$var wire 1 J \red~output_o\ $end
+$var wire 1 K \Q[3]~output_o\ $end
+$var wire 1 L \Q[2]~output_o\ $end
+$var wire 1 M \Q[1]~output_o\ $end
+$var wire 1 N \Q[0]~output_o\ $end
+$var wire 1 O \yellow~output_o\ $end
+$var wire 1 P \green~output_o\ $end
+$var wire 1 Q \CLK~input_o\ $end
+$var wire 1 R \CLK~inputclkctrl_outclk\ $end
+$var wire 1 S \EV~input_o\ $end
+$var wire 1 T \inst9|D2~0_combout\ $end
+$var wire 1 U \inst9|D1~1_combout\ $end
+$var wire 1 V \inst9|D1~0_combout\ $end
+$var wire 1 W \CW~input_o\ $end
+$var wire 1 X \inst9|D2~1_combout\ $end
+$var wire 1 Y \inst9|D2~2_combout\ $end
+$var wire 1 Z \inst9|D1~2_combout\ $end
+$var wire 1 [ \Restart~input_o\ $end
+$var wire 1 \ \Restart~inputclkctrl_outclk\ $end
+$var wire 1 ] \inst9|D3~0_combout\ $end
+$var wire 1 ^ \inst9|yellow~0_combout\ $end
+$var wire 1 _ \inst9|D3~1_combout\ $end
+$var wire 1 ` \inst9|D0~3_combout\ $end
+$var wire 1 a \inst9|D0~7_combout\ $end
+$var wire 1 b \inst9|D2~3_combout\ $end
+$var wire 1 c \inst9|D2~4_combout\ $end
+$var wire 1 d \inst9|red~0_combout\ $end
+$var wire 1 e \inst9|yellow~1_combout\ $end
+$var wire 1 f \inst9|green~4_combout\ $end
+$var wire 1 g inst [3] $end
+$var wire 1 h inst [2] $end
+$var wire 1 i inst [1] $end
+$var wire 1 j inst [0] $end
+$var wire 1 k \ALT_INV_Restart~inputclkctrl_outclk\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+1#
+1$
+0)
+1*
+0+
+0,
+1-
+x.
+1/
+10
+11
+12
+13
+14
+05
+16
+07
+1<
+0=
+0>
+1?
+0H
+zI
+0J
+0K
+0L
+0M
+0N
+0O
+1P
+0Q
+0R
+1S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+1[
+1\
+0]
+0^
+0_
+1`
+1a
+1b
+0c
+0d
+0e
+1f
+0k
+08
+09
+0:
+0;
+0g
+0h
+0i
+0j
+1D
+1E
+1F
+0G
+1@
+1A
+1B
+1C
+0%
+0&
+0'
+0(
+$end
+#25000
+1!
+0*
+1=
+0<
+0[
+1Q
+0C
+1G
+1R
+0\
+1k
+#50000
+0!
+0=
+0Q
+0G
+0R
+#75000
+1!
+1=
+1Q
+1G
+1R
+1j
+1N
+1U
+1]
+0a
+1;
+1Z
+1(
+#100000
+0!
+0=
+0Q
+0G
+0R
+#125000
+1!
+1=
+1Q
+1G
+1R
+1i
+0j
+0N
+1M
+1a
+0b
+1c
+0;
+1:
+0c
+0(
+1'
+#150000
+0!
+0=
+0Q
+0G
+0R
+#175000
+1!
+1=
+1Q
+1G
+1R
+1j
+1N
+0a
+1b
+1;
+1c
+1(
+#200000
+0!
+0=
+0Q
+0G
+0R
+#225000
+1!
+1=
+1Q
+1G
+1R
+0j
+1h
+1L
+0N
+1T
+0`
+0c
+0]
+1a
+0b
+19
+0;
+0a
+0Z
+0(
+1&
+#250000
+0!
+0=
+0Q
+0G
+0R
+#275000
+1!
+1=
+1Q
+1G
+1R
+0i
+0h
+0L
+0M
+0T
+0U
+1`
+1b
+09
+0:
+1a
+0'
+0&
+#300000
+0!
+0=
+0Q
+0G
+0R
+#325000
+1!
+1=
+1Q
+1G
+1R
+1j
+1N
+1U
+1]
+0a
+1;
+1Z
+1(
+#350000
+0!
+0=
+0Q
+0G
+0R
+#375000
+1!
+1=
+1Q
+1G
+1R
+1i
+0j
+0N
+1M
+1a
+0b
+1c
+0;
+1:
+0c
+0(
+1'
+#400000
+0!
+1"
+0=
+17
+1W
+0Q
+0G
+1X
+0R
+#425000
+1!
+1=
+1Q
+1G
+1R
+1j
+1N
+0a
+1b
+1;
+1c
+1(
+#450000
+0!
+0=
+0Q
+0G
+0R
+#475000
+1!
+1=
+1Q
+1G
+1R
+0j
+1h
+1L
+0N
+1T
+0c
+1Y
+0]
+1a
+0b
+19
+0;
+1c
+0(
+1&
+#500000
+0!
+0=
+0Q
+0G
+0R
+#525000
+1!
+1=
+1Q
+1G
+1R
+1j
+1N
+0Y
+1^
+0a
+1b
+0f
+1;
+0P
+1_
+1e
+0Z
+0c
+1(
+0?
+1O
+0$
+1>
+1+
+#550000
+0!
+0=
+0Q
+0G
+0R
+#575000
+1!
+1=
+1Q
+1G
+1R
+0i
+1g
+0j
+0h
+0L
+0N
+1K
+0M
+0X
+1a
+0T
+0U
+0b
+09
+0;
+18
+0:
+0(
+0'
+0&
+1%
+#600000
+0!
+0=
+0Q
+0G
+0R
+#625000
+1!
+1=
+1Q
+1G
+1R
+1j
+1N
+1V
+1]
+0^
+0a
+1d
+1;
+1J
+0e
+1Z
+1(
+15
+0O
+1)
+0>
+0+
+#650000
+0!
+0=
+0Q
+0G
+0R
+#675000
+1!
+1=
+1Q
+1G
+1R
+1i
+0j
+0N
+1M
+1a
+0;
+1:
+0(
+1'
+#700000
+0!
+0=
+0Q
+0G
+0R
+#725000
+1!
+1=
+1Q
+1G
+1R
+1j
+1N
+0V
+0a
+1b
+1;
+1c
+0Z
+1(
+#750000
+0!
+0=
+0Q
+0G
+0R
+#775000
+1!
+1=
+1Q
+1G
+1R
+0i
+0j
+1h
+1L
+0N
+0M
+0]
+0b
+19
+0;
+0:
+0c
+0_
+0(
+0'
+1&
+#800000
+0!
+0=
+0Q
+0G
+0R
+#825000
+1!
+1=
+1Q
+1G
+1R
+0g
+0h
+0L
+0K
+1X
+1a
+1b
+0d
+1f
+09
+08
+1P
+0J
+0&
+0%
+1?
+05
+1$
+0)
+#850000
+0!
+0=
+0Q
+0G
+0R
+#875000
+1!
+1=
+1Q
+1G
+1R
+1j
+1N
+1U
+1]
+0a
+1;
+1Z
+1(
+#900000
+0!
+0=
+0Q
+0G
+0R
+#925000
+1!
+0#
+1=
+06
+0S
+1Q
+1G
+0U
+0X
+1_
+0`
+0b
+1e
+0f
+0P
+1O
+0Z
+1R
+0?
+1>
+0$
+1+
+1g
+0j
+0N
+1K
+0]
+1^
+1a
+1b
+0e
+0;
+18
+0O
+1e
+0(
+1%
+0>
+1O
+0+
+1>
+1+
+#950000
+0!
+0=
+0Q
+0G
+0R
+#975000
+1!
+1=
+1Q
+1G
+1R
+1j
+1N
+1V
+1]
+0^
+0a
+0b
+1d
+1;
+1J
+0e
+1Z
+1(
+15
+0O
+1)
+0>
+0+
+#1000000
+0!
+0=
+0Q
+0G
+0R
+#1025000
+1!
+1=
+1Q
+1G
+1R
+1i
+0j
+0N
+1M
+1a
+0;
+1:
+0(
+1'
+#1050000
+0!
+0=
+0Q
+0G
+0R
+#1075000
+1!
+1=
+1Q
+1G
+1R
+1j
+1N
+0V
+0a
+1b
+1;
+1c
+0Z
+1(
+#1100000
+0!
+0=
+0Q
+0G
+0R
+#1125000
+1!
+1=
+1Q
+1G
+1R
+0i
+0j
+1h
+1L
+0N
+0M
+19
+0;
+0:
+0(
+0'
+1&
+#1150000
+0!
+0=
+0Q
+0G
+0R
+#1175000
+1!
+1=
+1Q
+1G
+1R

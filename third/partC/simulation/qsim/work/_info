@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab2/partC/simulation/qsim
+vhard_block
+Z1 !s110 1622826743
+!i10b 1
+!s100 J=aU=o5RQX1j8?:M_Q<6Q1
+IAi@5A9ZhRDH7[SS8zKVbY2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1622826742
+Z4 8Lab2_EQU.vo
+Z5 FLab2_EQU.vo
+L0 248
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1622826743.000000
+Z8 !s107 Lab2_EQU.vo|
+Z9 !s90 -work|work|Lab2_EQU.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vLab2_EQU
+R1
+!i10b 1
+!s100 nZ<zX>cDkDB2h8N[?3F`Q1
+IZAe?JlTJY?EOfiORIUg;I0
+R2
+R0
+R3
+R4
+R5
+L0 32
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@lab2_@e@q@u
+vLab2_EQU_vlg_vec_tst
+R1
+!i10b 1
+!s100 1o6=ma=[R=Po:A8zDO8iY0
+Idb3R?bazJTj1i5^XYLUGA0
+R2
+R0
+w1622826740
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@lab2_@e@q@u_vlg_vec_tst

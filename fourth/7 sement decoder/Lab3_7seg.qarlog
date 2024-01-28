@@ -1,0 +1,21 @@
+Quartus Prime Archive log --	C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab3/7 sement decoder/Lab3_7seg.qarlog
+
+Archive:	C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab3/7 sement decoder/Lab3_7seg.qar
+Date:		Thu Jun 10 18:05:40 2021
+Quartus Prime		19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab3/7 sement decoder/Lab3_7seg.bdf
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab3/7 sement decoder/Lab3_7seg.qpf
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab3/7 sement decoder/Lab3_7seg.qsf
+c:/intelfpga_lite/19.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 4 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Fri Jun 11 11:31:55 2021
+Source archive file:	C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab3/7 sement decoder/Lab3_7seg.qar
+Archive was extracted into	C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab3/7 sement decoder/Lab3_7seg_restored/
+		 - successfully.

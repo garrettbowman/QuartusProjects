@@ -1,0 +1,13 @@
+|Practical1
+Count <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Hold => inst5.ACLR
+Hold => inst14.IN0
+Hold => inst6.IN0
+Hold => inst.IN1
+R => inst4.IN0
+S => inst3.IN1
+S => inst13.IN2
+Start => inst5.PRESET
+Special <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+

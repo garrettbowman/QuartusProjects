@@ -1,0 +1,202 @@
+$comment
+	File created using the following command:
+		vcd file Lab3_2bit_Cnt.msim.vcd -direction
+$end
+$date
+	Thu Jun 10 08:30:48 2021
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module Lab3_2bit_Cnt_vlg_vec_tst $end
+$var reg 1 ! CLK $end
+$var wire 1 " Q0 $end
+$var wire 1 # Q1 $end
+
+$scope module i1 $end
+$var wire 1 $ gnd $end
+$var wire 1 % vcc $end
+$var wire 1 & unknown $end
+$var tri1 1 ' devclrn $end
+$var tri1 1 ( devpor $end
+$var tri1 1 ) devoe $end
+$var wire 1 * ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 + ~QUARTUS_CREATED_UNVM~~busy $end
+$var wire 1 , Q1~output_o $end
+$var wire 1 - Q0~output_o $end
+$var wire 1 . CLK~input_o $end
+$var wire 1 / CLK~inputclkctrl_outclk $end
+$var wire 1 0 inst|10~feeder_combout $end
+$var wire 1 1 inst|10~q $end
+$var wire 1 2 inst|9~0_combout $end
+$var wire 1 3 inst|9~q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+1%
+x&
+1'
+1(
+1)
+0*
+z+
+0,
+0-
+0.
+0/
+00
+01
+12
+03
+$end
+#50000
+1!
+1.
+1/
+13
+1,
+1#
+10
+#100000
+0!
+0.
+0/
+#150000
+1!
+1.
+1/
+11
+1-
+1"
+02
+#200000
+0!
+0.
+0/
+#250000
+1!
+1.
+1/
+03
+0,
+0#
+00
+#300000
+0!
+0.
+0/
+#350000
+1!
+1.
+1/
+01
+0-
+0"
+12
+#400000
+0!
+0.
+0/
+#450000
+1!
+1.
+1/
+13
+1,
+1#
+10
+#500000
+0!
+0.
+0/
+#550000
+1!
+1.
+1/
+11
+1-
+1"
+02
+#600000
+0!
+0.
+0/
+#650000
+1!
+1.
+1/
+03
+0,
+0#
+00
+#700000
+0!
+0.
+0/
+#750000
+1!
+1.
+1/
+01
+0-
+0"
+12
+#800000
+0!
+0.
+0/
+#850000
+1!
+1.
+1/
+13
+1,
+1#
+10
+#900000
+0!
+0.
+0/
+#950000
+1!
+1.
+1/
+11
+1-
+1"
+02
+#1000000
+0!
+0.
+0/
+#1050000
+1!
+1.
+1/
+03
+0,
+0#
+00
+#1100000
+0!
+0.
+0/
+#1150000
+1!
+1.
+1/
+01
+0-
+0"
+12
+#1200000

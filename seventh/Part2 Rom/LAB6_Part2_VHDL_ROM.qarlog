@@ -1,0 +1,19 @@
+Quartus Prime Archive log --	C:/Users/Garett Bowman/Dropbox/quartus proj/Lab6/Part2 Rom/LAB6_Part2_VHDL_ROM.qarlog
+
+Archive:	C:/Users/Garett Bowman/Dropbox/quartus proj/Lab6/Part2 Rom/LAB6_Part2_VHDL_ROM.qar
+Date:		Thu Jul 22 22:41:17 2021
+Quartus Prime		19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Garett Bowman/Dropbox/quartus proj/Lab6/Part2 Rom/LAB6_Part2_VHDL_ROM.bdf
+C:/Users/Garett Bowman/Dropbox/quartus proj/Lab6/Part2 Rom/LAB6_Part2_VHDL_ROM.qpf
+C:/Users/Garett Bowman/Dropbox/quartus proj/Lab6/Part2 Rom/LAB6_Part2_VHDL_ROM.qsf
+C:/Users/Garett Bowman/Dropbox/quartus proj/Lab6/Part2 Rom/Waveform.vwf
+C:/Users/Garett Bowman/Dropbox/quartus proj/Lab6/Part2 Rom/board_ROM_vhdl_init.vhd
+C:/Users/Garett Bowman/Dropbox/quartus proj/Lab6/Part2 Rom/board_vhdl_ROM.vhd
+C:/Users/Garett Bowman/Dropbox/quartus proj/Lab6/Part2 Rom/comb2.vhd
+c:/intelfpga_lite/19.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 8 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

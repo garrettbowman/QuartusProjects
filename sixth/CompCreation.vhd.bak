@@ -1,0 +1,17 @@
+library ieee; use ieee.std_logic_1164.all;
+entity MUX4INPUT is port (
+		Q:	in	std_logic_vector(3 downto 0);	
+		EV:	in	std_logic_vector(3 downto 0);
+		EV:	in	std_logic_vector(3 downto 0);
+		Y:	out std_logic
+);
+end MUX4INPUT;
+architecture behavior of MUX4INPUT is
+begin
+	Y <=	
+		( D(0) and ( not S(1) ) and ( not S(0) ) ) or 
+		( D(1) and ( not S(1) ) and (     S(0) ) ) or 
+		( D(2) and (     S(1) ) and ( not S(0) ) ) or 
+		( D(3) and (     S(1) ) and (     S(0) ) );
+
+end behavior;

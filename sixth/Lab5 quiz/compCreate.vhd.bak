@@ -1,0 +1,18 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity compCreate is
+	port(
+		Q2: in std_logic;
+		Q1: in std_logic;
+		Q0: in std_logic;
+		D: in std_logic;
+		E: in std_logic;
+		C: out std_logic);
+end compCreate;
+
+architecture behavior of CompCreate is
+signal COut: std_logic;
+begin
+	COut <= A and B;
+	C <= not COut;
+end behavior;

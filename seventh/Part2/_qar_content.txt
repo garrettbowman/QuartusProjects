@@ -1,0 +1,14 @@
+c:/intelfpga_lite/19.1/quartus/bin64/assignment_defaults.qdf
+C:/Users/Garett Bowman/Dropbox/quartus proj/rom_32k.mif
+comb2.vhd
+LAB6_Part2.bdf
+LAB6_Part2.qpf
+LAB6_Part2.qsf
+ROM1.bsf
+ROM1.cmp
+ROM1.qip
+ROM1.vhd
+Waveform.vwf
+Waveform3.vwf
+Waveform4.vwf
+Waveform5.vwf

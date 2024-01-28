@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab3/counter 2 bit 1/simulation/qsim
+vhard_block
+Z1 !s110 1623328247
+!i10b 1
+!s100 jVCz>Eo`JJNjoWaQ4RIHm1
+IUZY7ONP:>S<N9SE^RgBD:2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1623328246
+Z4 8Lab3_2bit_Cnt.vo
+Z5 FLab3_2bit_Cnt.vo
+L0 257
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1623328247.000000
+Z8 !s107 Lab3_2bit_Cnt.vo|
+Z9 !s90 -work|work|Lab3_2bit_Cnt.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vLab3_2bit_Cnt
+R1
+!i10b 1
+!s100 dOilmWf34[GW`a<eRkGJP1
+IK7[4`j`dMFWK>L6KDamz43
+R2
+R0
+R3
+R4
+R5
+L0 32
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@lab3_2bit_@cnt
+vLab3_2bit_Cnt_vlg_vec_tst
+R1
+!i10b 1
+!s100 :U@_iUJY5mElbU?34:SNb1
+Iogga[a:GWF`Rga13`JEcR1
+R2
+R0
+w1623328245
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@lab3_2bit_@cnt_vlg_vec_tst

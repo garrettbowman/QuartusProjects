@@ -1,0 +1,42 @@
+|Lab5_Quiz
+A <= compCreate:inst.A
+Q[0] <= inst2[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= inst2[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= inst2[2].DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst2[2].CLK
+CLK => inst2[1].CLK
+CLK => inst2[0].CLK
+D => compCreate:inst.D
+E => compCreate:inst.E
+B <= compCreate:inst.B
+C <= compCreate:inst.C
+
+
+|Lab5_Quiz|compCreate:inst
+Q2 => A.IN0
+Q2 => A.IN0
+Q2 => B.IN0
+Q1 => B.IN1
+Q1 => A.IN1
+Q1 => A.IN1
+Q0 => B.IN1
+Q0 => B.IN1
+Q0 => C.IN1
+Q0 => A.IN1
+Q0 => A.IN1
+Q0 => B.IN1
+D => A.IN1
+D => C.IN1
+D => A.IN1
+D => C.IN1
+E => B.IN1
+E => B.IN1
+E => D1.IN1
+A <= A.DB_MAX_OUTPUT_PORT_TYPE
+B <= B.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+D2 <= D2.DB_MAX_OUTPUT_PORT_TYPE
+D1 <= D1.DB_MAX_OUTPUT_PORT_TYPE
+D0 <= D0.DB_MAX_OUTPUT_PORT_TYPE
+
+

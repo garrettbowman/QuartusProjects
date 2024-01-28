@@ -1,0 +1,14 @@
+|Lab2_MUX
+Y_L <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+D2_L => inst1.IN0
+S1 => inst21.IN1
+S1 => inst8.IN0
+S1 => inst20.IN1
+S0 => inst9.IN0
+S0 => inst18.IN2
+S0 => inst20.IN2
+D0 => inst17.IN0
+D1_L => inst.IN0
+D3 => inst20.IN0
+
+

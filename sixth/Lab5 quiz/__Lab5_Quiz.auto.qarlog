@@ -1,0 +1,39 @@
+Quartus Prime Archive log --	C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5 quiz/__Lab5_Quiz.auto.qarlog
+
+Archive:	C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5 quiz/__Lab5_Quiz.auto.qar
+Date:		Fri Jul 16 15:09:51 2021
+Quartus Prime		19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5 quiz/Lab5_Quiz.bdf
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5 quiz/compCreate.vhd
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5 quiz/db/Lab5_Quiz.cbx.xml
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5 quiz/db/Lab5_Quiz.qpf
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5 quiz/output_files/Lab5_Quiz.asm.rpt
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5 quiz/output_files/Lab5_Quiz.done
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5 quiz/output_files/Lab5_Quiz.fit.rpt
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5 quiz/output_files/Lab5_Quiz.fit.smsg
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5 quiz/output_files/Lab5_Quiz.fit.summary
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5 quiz/output_files/Lab5_Quiz.flow.rpt
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5 quiz/output_files/Lab5_Quiz.jdi
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5 quiz/output_files/Lab5_Quiz.map.rpt
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5 quiz/output_files/Lab5_Quiz.map.summary
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5 quiz/output_files/Lab5_Quiz.pin
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5 quiz/output_files/Lab5_Quiz.pof
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5 quiz/output_files/Lab5_Quiz.pow.rpt
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5 quiz/output_files/Lab5_Quiz.pow.summary
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5 quiz/output_files/Lab5_Quiz.sld
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5 quiz/output_files/Lab5_Quiz.sof
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5 quiz/output_files/Lab5_Quiz.sta.rpt
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5 quiz/output_files/Lab5_Quiz.sta.summary
+Lab5_Quiz.qsf
+c:/intelfpga_lite/19.1/quartus/bin64/assignment_defaults.qdf
+c:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+c:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+c:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+c:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+compCreate.bsf
+	======= Total: 28 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

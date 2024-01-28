@@ -1,0 +1,29 @@
+# Copyright (C) 2019  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+
+# Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+# File: C:\Users\Garett Bowman\Desktop\DL\quartus proj\Lab2\Lab2_MUX.csv
+# Generated on: Fri Jun 04 10:04:26 2021
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Strict Preservation
+D0,Input,PIN_E3,1A,B1_N0,PIN_E3,2.5 V,,,,,
+D1_L,Input,PIN_E4,1A,B1_N0,PIN_E4,2.5 V,,,,,
+D2_L,Input,PIN_G4,1B,B1_N0,PIN_G4,2.5 V,,,,,
+D3,Input,PIN_J7,3,B3_N0,PIN_J7,2.5 V,,,,,
+S0,Input,PIN_H3,1B,B1_N0,PIN_H3,2.5 V,,,,,
+S1,Input,PIN_H2,1B,B1_N0,PIN_H2,2.5 V,,,,,
+Y_L,Output,PIN_M9,3,B3_N0,PIN_M9,2.5 V,,,,,

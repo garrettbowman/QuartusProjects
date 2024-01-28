@@ -1,0 +1,48 @@
+Quartus Prime Archive log --	C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5_DFF_Traff_Cont.qarlog
+
+Archive:	C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5_DFF_Traff_Cont.qar
+Date:		Thu Jul 15 02:15:03 2021
+Quartus Prime		19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/CompCreation.qsf
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/CompCreation.vhd
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5_DFF_Traf_Cont.bdf
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5_DFF_Traff_Cont.qpf
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Waveform.vwf
+C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Waveform1.vwf
+c:/intelfpga_lite/19.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 7 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Fri Jul 16 12:23:58 2021
+Source archive file:	C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5_DFF_Traff_Cont.qar
+Archive was extracted into	C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5_DFF_Traff_Cont_restored/
+		 - successfully.
+
+
+******* Archived project restoration attempt on Fri Jul 16 16:29:41 2021
+Source archive file:	C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5_DFF_Traff_Cont.qar
+Archive was extracted into	C:/Users/Garett Bowman/Desktop/DL/quartus proj/Lab5/Lab5_DFF_Traff_Cont_restored/
+		 - successfully.
+
+
+******* Archived project restoration attempt on Mon Jul 19 22:41:53 2021
+Source archive file:	C:/Users/Garett Bowman/Dropbox/quartus proj/Lab5/Lab5_DFF_Traff_Cont.qar
+Archive was extracted into	C:/Users/Garett Bowman/Dropbox/quartus proj/Lab5/Lab5_DFF_Traff_Cont_restored/
+		 - successfully.
+
+
+******* Archived project restoration attempt on Wed Jul 21 02:51:31 2021
+Source archive file:	C:/Users/Garett Bowman/Dropbox/quartus proj/Lab5/Lab5_DFF_Traff_Cont.qar
+Archive was extracted into	C:/Users/Garett Bowman/Dropbox/quartus proj/Lab5/Lab5_DFF_Traff_Cont_restored/
+		 - successfully.
+
+
+******* Archived project restoration attempt on Wed Jul 21 03:49:54 2021
+Source archive file:	C:/Users/Garett Bowman/Dropbox/quartus proj/Lab5/Lab5_DFF_Traff_Cont.qar
+Archive was extracted into	C:/Users/Garett Bowman/Dropbox/quartus proj/Lab5/Lab5_DFF_Traff_Cont_restored/
+		 - successfully.

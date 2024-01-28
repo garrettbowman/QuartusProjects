@@ -1,0 +1,531 @@
+|LAB6_Part2_VHDL_ROM
+Cout <= 74283:inst17.COUT
+Cin => 74283:inst17.CIN
+reset => inst30.IN0
+CLK <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+MemCLK => inst11.CLK
+MemCLK => BOARD_VHDL_ROM:inst34.CLK
+INPUT[0] <= BOARD_VHDL_ROM:inst34.D[0]
+INPUT[1] <= BOARD_VHDL_ROM:inst34.D[1]
+INPUT[2] <= BOARD_VHDL_ROM:inst34.D[2]
+INPUT[3] <= BOARD_VHDL_ROM:inst34.D[3]
+PC[0] <= 74161:inst32.QA
+PC[1] <= 74161:inst32.QB
+PC[2] <= 74161:inst32.QC
+PC[3] <= 74161:inst32.QD
+IR[0] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+IR[1] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+IR[2] <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+DIR[0] <= 74157:inst15.Y3
+DIR[1] <= 74157:inst15.Y2
+DIR[2] <= 74157:inst15.Y1
+DIR[3] <= <GND>
+OUTPUT[0] <= O[0].DB_MAX_OUTPUT_PORT_TYPE
+OUTPUT[1] <= O[1].DB_MAX_OUTPUT_PORT_TYPE
+OUTPUT[2] <= O[2].DB_MAX_OUTPUT_PORT_TYPE
+OUTPUT[3] <= O[3].DB_MAX_OUTPUT_PORT_TYPE
+REGA[0] <= inst94[0].DB_MAX_OUTPUT_PORT_TYPE
+REGA[1] <= inst94[1].DB_MAX_OUTPUT_PORT_TYPE
+REGA[2] <= inst94[2].DB_MAX_OUTPUT_PORT_TYPE
+REGA[3] <= inst94[3].DB_MAX_OUTPUT_PORT_TYPE
+REGB[0] <= inst4[0].DB_MAX_OUTPUT_PORT_TYPE
+REGB[1] <= inst4[1].DB_MAX_OUTPUT_PORT_TYPE
+REGB[2] <= inst4[2].DB_MAX_OUTPUT_PORT_TYPE
+REGB[3] <= inst4[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6_Part2_VHDL_ROM|74283:inst17
+a[1] => f74283:sub.a[1]
+a[2] => f74283:sub.a[2]
+a[3] => f74283:sub.a[3]
+a[4] => f74283:sub.a[4]
+b[1] => f74283:sub.b[1]
+b[2] => f74283:sub.b[2]
+b[3] => f74283:sub.b[3]
+b[4] => f74283:sub.b[4]
+cin => f74283:sub.cin
+cout <= f74283:sub.cout
+sum[1] <= f74283:sub.sum[1]
+sum[2] <= f74283:sub.sum[2]
+sum[3] <= f74283:sub.sum[3]
+sum[4] <= f74283:sub.sum[4]
+
+
+|LAB6_Part2_VHDL_ROM|74283:inst17|f74283:sub
+SUM1 <= 76.DB_MAX_OUTPUT_PORT_TYPE
+CIN => 108.DATAIN
+A1 => 77.IN1
+A1 => 92.IN1
+A1 => 93.IN1
+B1 => 76.IN1
+B1 => 93.IN0
+B1 => 94.IN1
+COUT <= 91.DB_MAX_OUTPUT_PORT_TYPE
+A2 => 95.IN1
+A2 => 97.IN1
+A2 => 79.IN1
+B2 => 97.IN0
+B2 => 96.IN1
+B2 => 78.IN1
+A3 => 98.IN1
+A3 => 100.IN1
+A3 => 81.IN1
+B3 => 100.IN0
+B3 => 99.IN1
+B3 => 80.IN1
+A4 => 101.IN1
+A4 => 103.IN1
+A4 => 83.IN1
+B4 => 103.IN0
+B4 => 102.IN1
+B4 => 82.IN1
+SUM4 <= 82.DB_MAX_OUTPUT_PORT_TYPE
+SUM3 <= 80.DB_MAX_OUTPUT_PORT_TYPE
+SUM2 <= 78.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6_Part2_VHDL_ROM|74153:inst99
+1Y <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1GN => 26.IN0
+B => 27.IN0
+A => 29.IN0
+1C0 => 1.IN3
+1C1 => 2.IN3
+1C2 => 3.IN3
+1C3 => 4.IN3
+2Y <= 10.DB_MAX_OUTPUT_PORT_TYPE
+2C0 => 5.IN0
+2GN => 25.IN0
+2C1 => 6.IN0
+2C2 => 7.IN0
+2C3 => 8.IN0
+
+
+|LAB6_Part2_VHDL_ROM|BOARD_VHDL_ROM:inst34
+A[0] => Mux0.IN32782
+A[0] => Mux1.IN32782
+A[0] => Mux2.IN32782
+A[0] => Mux3.IN32782
+A[0] => Mux4.IN32782
+A[0] => Mux5.IN32782
+A[0] => Mux6.IN32782
+A[0] => Mux7.IN32782
+A[1] => Mux0.IN32781
+A[1] => Mux1.IN32781
+A[1] => Mux2.IN32781
+A[1] => Mux3.IN32781
+A[1] => Mux4.IN32781
+A[1] => Mux5.IN32781
+A[1] => Mux6.IN32781
+A[1] => Mux7.IN32781
+A[2] => Mux0.IN32780
+A[2] => Mux1.IN32780
+A[2] => Mux2.IN32780
+A[2] => Mux3.IN32780
+A[2] => Mux4.IN32780
+A[2] => Mux5.IN32780
+A[2] => Mux6.IN32780
+A[2] => Mux7.IN32780
+A[3] => Mux0.IN32779
+A[3] => Mux1.IN32779
+A[3] => Mux2.IN32779
+A[3] => Mux3.IN32779
+A[3] => Mux4.IN32779
+A[3] => Mux5.IN32779
+A[3] => Mux6.IN32779
+A[3] => Mux7.IN32779
+A[4] => Mux0.IN32778
+A[4] => Mux1.IN32778
+A[4] => Mux2.IN32778
+A[4] => Mux3.IN32778
+A[4] => Mux4.IN32778
+A[4] => Mux5.IN32778
+A[4] => Mux6.IN32778
+A[4] => Mux7.IN32778
+A[5] => Mux0.IN32777
+A[5] => Mux1.IN32777
+A[5] => Mux2.IN32777
+A[5] => Mux3.IN32777
+A[5] => Mux4.IN32777
+A[5] => Mux5.IN32777
+A[5] => Mux6.IN32777
+A[5] => Mux7.IN32777
+A[6] => Mux0.IN32776
+A[6] => Mux1.IN32776
+A[6] => Mux2.IN32776
+A[6] => Mux3.IN32776
+A[6] => Mux4.IN32776
+A[6] => Mux5.IN32776
+A[6] => Mux6.IN32776
+A[6] => Mux7.IN32776
+A[7] => Mux0.IN32775
+A[7] => Mux1.IN32775
+A[7] => Mux2.IN32775
+A[7] => Mux3.IN32775
+A[7] => Mux4.IN32775
+A[7] => Mux5.IN32775
+A[7] => Mux6.IN32775
+A[7] => Mux7.IN32775
+A[8] => Mux0.IN32774
+A[8] => Mux1.IN32774
+A[8] => Mux2.IN32774
+A[8] => Mux3.IN32774
+A[8] => Mux4.IN32774
+A[8] => Mux5.IN32774
+A[8] => Mux6.IN32774
+A[8] => Mux7.IN32774
+A[9] => Mux0.IN32773
+A[9] => Mux1.IN32773
+A[9] => Mux2.IN32773
+A[9] => Mux3.IN32773
+A[9] => Mux4.IN32773
+A[9] => Mux5.IN32773
+A[9] => Mux6.IN32773
+A[9] => Mux7.IN32773
+A[10] => Mux0.IN32772
+A[10] => Mux1.IN32772
+A[10] => Mux2.IN32772
+A[10] => Mux3.IN32772
+A[10] => Mux4.IN32772
+A[10] => Mux5.IN32772
+A[10] => Mux6.IN32772
+A[10] => Mux7.IN32772
+A[11] => Mux0.IN32771
+A[11] => Mux1.IN32771
+A[11] => Mux2.IN32771
+A[11] => Mux3.IN32771
+A[11] => Mux4.IN32771
+A[11] => Mux5.IN32771
+A[11] => Mux6.IN32771
+A[11] => Mux7.IN32771
+A[12] => Mux0.IN32770
+A[12] => Mux1.IN32770
+A[12] => Mux2.IN32770
+A[12] => Mux3.IN32770
+A[12] => Mux4.IN32770
+A[12] => Mux5.IN32770
+A[12] => Mux6.IN32770
+A[12] => Mux7.IN32770
+A[13] => Mux0.IN32769
+A[13] => Mux1.IN32769
+A[13] => Mux2.IN32769
+A[13] => Mux3.IN32769
+A[13] => Mux4.IN32769
+A[13] => Mux5.IN32769
+A[13] => Mux6.IN32769
+A[13] => Mux7.IN32769
+A[14] => Mux0.IN32768
+A[14] => Mux1.IN32768
+A[14] => Mux2.IN32768
+A[14] => Mux3.IN32768
+A[14] => Mux4.IN32768
+A[14] => Mux5.IN32768
+A[14] => Mux6.IN32768
+A[14] => Mux7.IN32768
+D[0] <= D[0].DB_MAX_OUTPUT_PORT_TYPE
+D[1] <= D[1].DB_MAX_OUTPUT_PORT_TYPE
+D[2] <= D[2].DB_MAX_OUTPUT_PORT_TYPE
+D[3] <= D[3].DB_MAX_OUTPUT_PORT_TYPE
+D[4] <= D[4].DB_MAX_OUTPUT_PORT_TYPE
+D[5] <= D[5].DB_MAX_OUTPUT_PORT_TYPE
+D[6] <= D[6].DB_MAX_OUTPUT_PORT_TYPE
+D[7] <= D[7].DB_MAX_OUTPUT_PORT_TYPE
+CLK => D_sig[0].CLK
+CLK => D_sig[1].CLK
+CLK => D_sig[2].CLK
+CLK => D_sig[3].CLK
+CLK => D_sig[4].CLK
+CLK => D_sig[5].CLK
+CLK => D_sig[6].CLK
+CLK => D_sig[7].CLK
+OE_L => D[7].IN0
+CE_L => D[7].IN1
+
+
+|LAB6_Part2_VHDL_ROM|74161:inst32
+clk => f74161:sub.clk
+ldn => f74161:sub.ldn
+clrn => f74161:sub.clrn
+enp => f74161:sub.enp
+ent => f74161:sub.ent
+d => f74161:sub.d
+c => f74161:sub.c
+b => f74161:sub.b
+a => f74161:sub.a
+qd <= f74161:sub.qd
+qc <= f74161:sub.qc
+qb <= f74161:sub.qb
+qa <= f74161:sub.qa
+rco <= f74161:sub.rco
+
+
+|LAB6_Part2_VHDL_ROM|74161:inst32|f74161:sub
+RCO <= 105.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => 110.ACLR
+CLRN => 99.ACLR
+CLRN => 87.ACLR
+CLRN => 9.ACLR
+CLK => 110.CLK
+CLK => 99.CLK
+CLK => 87.CLK
+CLK => 9.CLK
+D => 113.IN0
+LDN => 117.IN0
+LDN => 77.IN1
+LDN => 86.IN1
+LDN => 98.IN1
+LDN => 108.IN1
+ENP => 106.IN0
+ENP => 96.IN0
+ENP => 89.IN0
+ENP => 79.IN0
+C => 101.IN0
+B => 91.IN0
+A => 76.IN0
+ENT => 82.DATAIN
+QD <= 110.DB_MAX_OUTPUT_PORT_TYPE
+QC <= 99.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 87.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6_Part2_VHDL_ROM|comb2:inst7
+IR[0] => D3.IN1
+IR[0] => D4.IN1
+IR[0] => D6.IN1
+IR[0] => D7.IN1
+IR[0] => D7.IN1
+IR[0] => D3.IN1
+IR[1] => D3.IN1
+IR[1] => D7.IN1
+IR[1] => D7.IN1
+IR[2] => D7.IN1
+IR[2] => D7.IN1
+Q1 => D3.IN0
+Q1 => D3.IN0
+Q1 => D7.IN0
+Q1 => D3.IN0
+Q0 => D3.IN1
+Q0 => D7.IN1
+Q0 => D3.IN1
+Q0 => D3.IN1
+D7 <= D7.DB_MAX_OUTPUT_PORT_TYPE
+D6 <= D6.DB_MAX_OUTPUT_PORT_TYPE
+D5 <= D5.DB_MAX_OUTPUT_PORT_TYPE
+D4 <= D4.DB_MAX_OUTPUT_PORT_TYPE
+D3 <= D3.DB_MAX_OUTPUT_PORT_TYPE
+D2 <= D2.DB_MAX_OUTPUT_PORT_TYPE
+D1 <= D1.DB_MAX_OUTPUT_PORT_TYPE
+Q1o <= Q1o.DB_MAX_OUTPUT_PORT_TYPE
+Q0o <= Q0o.DB_MAX_OUTPUT_PORT_TYPE
+PCINC <= PCINC.DB_MAX_OUTPUT_PORT_TYPE
+PCLD <= D3.DB_MAX_OUTPUT_PORT_TYPE
+IRLD <= D3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6_Part2_VHDL_ROM|74157:inst15
+Y4 <= 25.DB_MAX_OUTPUT_PORT_TYPE
+A4 => 20.IN0
+GN => 12.IN0
+GN => 13.IN0
+SEL => 12.IN1
+SEL => 1.IN0
+B4 => 21.IN0
+Y3 <= 24.DB_MAX_OUTPUT_PORT_TYPE
+A3 => 18.IN0
+B3 => 19.IN0
+Y2 <= 23.DB_MAX_OUTPUT_PORT_TYPE
+A2 => 16.IN0
+B2 => 17.IN0
+Y1 <= 22.DB_MAX_OUTPUT_PORT_TYPE
+A1 => 14.IN0
+B1 => 15.IN0
+
+
+|LAB6_Part2_VHDL_ROM|74153:inst12
+1Y <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1GN => 26.IN0
+B => 27.IN0
+A => 29.IN0
+1C0 => 1.IN3
+1C1 => 2.IN3
+1C2 => 3.IN3
+1C3 => 4.IN3
+2Y <= 10.DB_MAX_OUTPUT_PORT_TYPE
+2C0 => 5.IN0
+2GN => 25.IN0
+2C1 => 6.IN0
+2C2 => 7.IN0
+2C3 => 8.IN0
+
+
+|LAB6_Part2_VHDL_ROM|74151:inst8
+c => f74151:sub.c
+b => f74151:sub.b
+a => f74151:sub.a
+d[0] => f74151:sub.d[0]
+d[1] => f74151:sub.d[1]
+d[2] => f74151:sub.d[2]
+d[3] => f74151:sub.d[3]
+d[4] => f74151:sub.d[4]
+d[5] => f74151:sub.d[5]
+d[6] => f74151:sub.d[6]
+d[7] => f74151:sub.d[7]
+gn => f74151:sub.gn
+y <= f74151:sub.y
+wn <= f74151:sub.wn
+
+
+|LAB6_Part2_VHDL_ROM|74151:inst8|f74151:sub
+WN <= 85.DB_MAX_OUTPUT_PORT_TYPE
+D0 => 59.IN0
+A => 19.IN0
+D1 => 60.IN0
+B => 17.IN0
+D2 => 61.IN0
+D3 => 62.IN0
+C => 16.IN0
+D4 => 63.IN0
+D5 => 64.IN0
+D6 => 65.IN0
+D7 => 66.IN0
+GN => 13.IN0
+y <= 82.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6_Part2_VHDL_ROM|74151:inst47
+c => f74151:sub.c
+b => f74151:sub.b
+a => f74151:sub.a
+d[0] => f74151:sub.d[0]
+d[1] => f74151:sub.d[1]
+d[2] => f74151:sub.d[2]
+d[3] => f74151:sub.d[3]
+d[4] => f74151:sub.d[4]
+d[5] => f74151:sub.d[5]
+d[6] => f74151:sub.d[6]
+d[7] => f74151:sub.d[7]
+gn => f74151:sub.gn
+y <= f74151:sub.y
+wn <= f74151:sub.wn
+
+
+|LAB6_Part2_VHDL_ROM|74151:inst47|f74151:sub
+WN <= 85.DB_MAX_OUTPUT_PORT_TYPE
+D0 => 59.IN0
+A => 19.IN0
+D1 => 60.IN0
+B => 17.IN0
+D2 => 61.IN0
+D3 => 62.IN0
+C => 16.IN0
+D4 => 63.IN0
+D5 => 64.IN0
+D6 => 65.IN0
+D7 => 66.IN0
+GN => 13.IN0
+y <= 82.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6_Part2_VHDL_ROM|74153:inst13
+1Y <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1GN => 26.IN0
+B => 27.IN0
+A => 29.IN0
+1C0 => 1.IN3
+1C1 => 2.IN3
+1C2 => 3.IN3
+1C3 => 4.IN3
+2Y <= 10.DB_MAX_OUTPUT_PORT_TYPE
+2C0 => 5.IN0
+2GN => 25.IN0
+2C1 => 6.IN0
+2C2 => 7.IN0
+2C3 => 8.IN0
+
+
+|LAB6_Part2_VHDL_ROM|74151:inst9
+c => f74151:sub.c
+b => f74151:sub.b
+a => f74151:sub.a
+d[0] => f74151:sub.d[0]
+d[1] => f74151:sub.d[1]
+d[2] => f74151:sub.d[2]
+d[3] => f74151:sub.d[3]
+d[4] => f74151:sub.d[4]
+d[5] => f74151:sub.d[5]
+d[6] => f74151:sub.d[6]
+d[7] => f74151:sub.d[7]
+gn => f74151:sub.gn
+y <= f74151:sub.y
+wn <= f74151:sub.wn
+
+
+|LAB6_Part2_VHDL_ROM|74151:inst9|f74151:sub
+WN <= 85.DB_MAX_OUTPUT_PORT_TYPE
+D0 => 59.IN0
+A => 19.IN0
+D1 => 60.IN0
+B => 17.IN0
+D2 => 61.IN0
+D3 => 62.IN0
+C => 16.IN0
+D4 => 63.IN0
+D5 => 64.IN0
+D6 => 65.IN0
+D7 => 66.IN0
+GN => 13.IN0
+y <= 82.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6_Part2_VHDL_ROM|74151:inst10
+c => f74151:sub.c
+b => f74151:sub.b
+a => f74151:sub.a
+d[0] => f74151:sub.d[0]
+d[1] => f74151:sub.d[1]
+d[2] => f74151:sub.d[2]
+d[3] => f74151:sub.d[3]
+d[4] => f74151:sub.d[4]
+d[5] => f74151:sub.d[5]
+d[6] => f74151:sub.d[6]
+d[7] => f74151:sub.d[7]
+gn => f74151:sub.gn
+y <= f74151:sub.y
+wn <= f74151:sub.wn
+
+
+|LAB6_Part2_VHDL_ROM|74151:inst10|f74151:sub
+WN <= 85.DB_MAX_OUTPUT_PORT_TYPE
+D0 => 59.IN0
+A => 19.IN0
+D1 => 60.IN0
+B => 17.IN0
+D2 => 61.IN0
+D3 => 62.IN0
+C => 16.IN0
+D4 => 63.IN0
+D5 => 64.IN0
+D6 => 65.IN0
+D7 => 66.IN0
+GN => 13.IN0
+y <= 82.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6_Part2_VHDL_ROM|74153:inst69
+1Y <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1GN => 26.IN0
+B => 27.IN0
+A => 29.IN0
+1C0 => 1.IN3
+1C1 => 2.IN3
+1C2 => 3.IN3
+1C3 => 4.IN3
+2Y <= 10.DB_MAX_OUTPUT_PORT_TYPE
+2C0 => 5.IN0
+2GN => 25.IN0
+2C1 => 6.IN0
+2C2 => 7.IN0
+2C3 => 8.IN0
+
+

@@ -1,0 +1,31 @@
+-- File name = rom_32k.mif
+
+DEPTH = 32768;	% Memory depth and width are required	%
+WIDTH = 8;		% Enter a decimal number	%
+
+ADDRESS_RADIX = HEX;	% Address and value radixes are optional	%
+DATA_RADIX = HEX;		% Enter BIN, DEC, HEX, or OCT; unless 	%
+						% otherwise specified, radixes = HEX	%
+
+-- Specify values for addresses, which can be single address or range
+
+CONTENT
+BEGIN
+
+[0..739F]	:	0;	% First $739f values are zero %
+73A0			:	2;	% Single address data %
+73A1			:	7;	
+73A2			:	4;
+73A3			:	1; 
+73A4			:	2;
+73A5			:	7;
+73A6			:	0; 
+73A7			:	5;
+73A8			:	1;
+73A9			:	3;
+73AA			:	3;
+73AB			:	2;
+73AC			:	E;
+[73AD..7FFF]	:	0;
+END ;				
+

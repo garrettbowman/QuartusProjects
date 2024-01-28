@@ -1,0 +1,11 @@
+# do LAB6_Part1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:38:25 on Jul 22,2021
+# vcom -work work LAB6_Part1.vho 
+# ** Warning: (vcom-6) -- Waiting for lock by "Garett Bowman@MSI, pid = 18760
+# ". Lockfile is "C:/Users/Garett Bowman/Dropbox/quartus proj/Lab6/Part1/LAB6_Part1_restored/simulation/qsim/work/_lock".
+# ** Warning: (vcom-6) -- Waiting for lock by "Garett Bowman@MSI, pid = 18760
+# ". Lockfile is "C:/Users/Garett Bowman/Dropbox/quartus proj/Lab6/Part1/LAB6_Part1_restored/simulation/qsim/work/_lock".
+# ** Warning: (vcom-6) -- Waiting for lock by "Garett Bowman@MSI, pid = 18760
+# ". Lockfile is "C:/Users/Garett Bowman/Dropbox/quartus proj/Lab6/Part1/LAB6_Part1_restored/simulation/qsim/work/_lock".

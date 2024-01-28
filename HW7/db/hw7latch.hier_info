@@ -1,0 +1,6 @@
+|hw7latch
+CLK <= inst.DB_MAX_OUTPUT_PORT_TYPE
+R => inst3.IN0
+S => inst2.IN0
+
+
